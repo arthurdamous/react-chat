@@ -11,10 +11,6 @@ import TextContainer from '../TextContainer/TextContainer';
 
 let socket;
 
-
-
-
-
 const Chat = ({ location }) => {
     const [name, setName] = useState('');
     const [room, setRoom] = useState('');
